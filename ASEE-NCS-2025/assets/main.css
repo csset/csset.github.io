@@ -76,6 +76,26 @@ th,td{
     /*border: 1px solid black;*/
 }
 
+/* Specific styling for the person profiles table */
+.person-profiles {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.person-profiles th, .person-profiles td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.person-profiles th {
+    background-color: #f2f2f2;
+}
+.person-profiles img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* Website Banner */
 .banner {position: relative; width: 100%; font-family:'Roboto Slab',serif;}
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 100%; height: 100px; position: absolute; padding: 36px 0 0 0; top: 0px;}
