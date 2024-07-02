@@ -58,6 +58,11 @@ a {
         color: #e82945;
     }
 
+.body-img {
+    width: auto;
+    height: auto;
+}
+
 h1, h2, h3, h4 {
     clear: left;
     color: #813c54;
