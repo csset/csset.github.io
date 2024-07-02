@@ -109,7 +109,7 @@ ul {
 }
 
     ul li {
-        list-style: none;
+        list-style: disc;
         margin: 0px auto 0px auto;
         padding: 0px;
         text-align: left;
