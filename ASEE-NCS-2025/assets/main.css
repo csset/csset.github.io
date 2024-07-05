@@ -195,7 +195,7 @@ th, td {
 
 .top-left {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10.33em;
+    font-size: 5.33em;
     color: #505050;
     background: #fafafa;
     text-align: center;
@@ -207,7 +207,7 @@ th, td {
 }
 
 .bottom-right {
-    font-size: 2.33em;    
+    font-size: 10.33em;    
     line-height: 1.5em;
     width: auto;
     height: auto;
