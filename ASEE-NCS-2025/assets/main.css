@@ -51,6 +51,7 @@ body {
     padding: 15px;
     height: 100vh; /* Full height */
     position: fixed; /* Fixed position */
+    right: 0; /* Align to the right */
 }
 
 .sidebar h2 {
@@ -78,7 +79,7 @@ body {
 
 /* Main content styles */
 .main-content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-right: 250px; /* Same as sidebar width */
     padding: 15px;
     flex: 1; /* Take up the remaining space */
 }
