@@ -207,7 +207,7 @@ th, td {
 }
 
 .bottom-right {
-    font-size: 10.33em;    
+    font-size: 5.5em;    
     line-height: 1.5em;
     width: auto;
     height: auto;
@@ -232,7 +232,7 @@ th, td {
 .year {
     color: #505050;
     font-size: 0.42em;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 /* Navigation Links (Home, Registration, etc) */
