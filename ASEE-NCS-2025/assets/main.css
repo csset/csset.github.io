@@ -38,6 +38,56 @@ body {
     width: 1000px;
 }
 
+/*############################################*/
+/* Main content styles */
+.main-content {
+    padding: 15px;
+    flex: 1; /* Take up the remaining space */
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 350px;   
+    background-color: #E5E7E9;
+    color: black;
+    padding: 25px;
+    height: fit-content; /* Full height */
+    /*position: fixed;  Fixed position */
+    right: 0; /* Align to the right */
+}
+
+    .sidebar h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .sidebar ul li {
+            margin: 20px 0;
+        }
+
+            .sidebar ul li a {
+                color: black;
+                text-decoration: none;
+            }
+
+                .sidebar ul li a:hover {
+                    text-decoration: underline;
+                }
+
+.main-content {
+    margin-right: 250px; /* Same as sidebar width */
+}
+
+.parent-content {
+    display: flex;
+}
+/*############################################*/
+
 a {
     color: #b8860b;
     text-decoration: none;
