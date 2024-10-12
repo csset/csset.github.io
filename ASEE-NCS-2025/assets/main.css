@@ -195,7 +195,14 @@ table {
     /*border: 1px solid black;*/
 }
 
-th, td {
+th {
+    text-align: left;
+    font-weight: bold; 
+    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+    /*border: 1px solid black;*/
+}
+
+td {
     text-align: left;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
