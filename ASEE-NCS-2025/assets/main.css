@@ -87,7 +87,23 @@ body {
     display: flex;
 }
 /*############################################*/
+.rounded-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
 
+.rounded-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+}
 a {
     color: #b8860b;
     text-decoration: none;
