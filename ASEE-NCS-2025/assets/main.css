@@ -90,7 +90,7 @@ body {
 /* Container to center the buttons */
 .button-container {
     display: flex;
-    justify-content: center; /* Horizontally center */
+    /*justify-content: center;*/ /* Horizontally center */
     align-items: center; /* Vertically center */
     height: 100px; /* Full viewport height */
     gap: 20px; /* Space between buttons */
